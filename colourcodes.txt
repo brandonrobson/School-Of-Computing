@@ -1,0 +1,4 @@
+#333333 - bottom nav bar
+#1B1B25 - lower bottom nav bar
+#293342 - social media button background
+#117E6C - UWS teal green
