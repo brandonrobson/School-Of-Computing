@@ -2,6 +2,7 @@
 body {
     font-family: "Montserrat";
     text-align: center;
+    background-color: #1B1B25;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -24,30 +25,7 @@ body {
     color: white;
     font-size: 30;
   }
-  
-  
 
-  
-  
-  .big-heading {
-    font-family: "Montserrat-Black";
-    font-size: 3.5rem;
-    line-height: 1.5;
-  }
-  
-  .section-heading {
-    font-size: 3rem;
-    line-height: 1.5;
-  }
-  
-  /* Containers */
- 
-  
-  
-  /* Sections */
-  .mainsite{
-      background-color: #117E6C;
-  }
   
   
   /* Add a black background color to the top navigation */
@@ -80,10 +58,6 @@ body {
     color: white;
   }
   
-  .white-section{
-    background-color: #fff;
-  }
-  
   .coloured-section {
     background-color: #117E6C;
     color: #fff;
@@ -97,33 +71,8 @@ body {
     background-color: #22222E;
   }
   
-  /* Navigation Bar */
-  
-  .navbar {
-    padding: 0 0 1.5rem;
-  }
-  
-  .navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  
-  .nav-item {
-    padding: 0 18px;
-  }
-  
-  .nav-link {
-    font-size: 1.2rem;
-    font-family: "Montserrat-Light";
-  }
-  
   /* Buttons */
   
-  .download-button {
-    margin: 5% 3% 5% 0;
-  }
-
   .littlebutton{
       padding: 100px;
       background-color: #1B1B25;
@@ -140,15 +89,6 @@ body {
   
   #title .container-fluid {
     padding: 3% 15% 7%;
-  }
-  
-  /* Title Image */
-  
-  .title-image {
-    width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 30%;
   }
   
   /* Features Section */
@@ -174,54 +114,9 @@ body {
     color: #ff4c68;
   }
   
-  /* Testimonial Section */
-  
-  #testimonials {
-    background-color: #ef8172;
-  }
-  
-  .testimonial-text {
-    font-size: 3rem;
-    line-height: 1.5;
-  }
-  
-  .testimonial-image {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
-  }
-  
   .btn-dark{
       background-color: rgb(34, 34, 46);
   }
-  
-  #press {
-    background-color: #ef8172;
-    padding-bottom: 3%;
-  }
-  
-  .press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
-  }
-  
-  /* Pricing Section */
-  
-  #pricing {
-    padding: 100px;
-  }
-  
-  .price-text {
-    font-size: 3rem;
-    line-height: 1.5;
-  }
-  
-  .pricing-column {
-    padding: 3% 2%;
-  }
-  
-  /* CTA Section */
-  
   
   /* Footer Section */
   .foot{
@@ -246,15 +141,5 @@ body {
     color: white;
   }
   
-  @media (max-width: 1028px) {
-  
-    #title {
-      text-align: center;
-    }
-  
-    .title-image {
-      position: static;
-      transform: rotate(0);
-    }
-  }
+
   
