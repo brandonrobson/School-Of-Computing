@@ -63,6 +63,30 @@ body {
     color: #fff;
   }
   
+  /*Styles heading and content */
+  .h1 {
+	  color: #FFFFF;
+	  font-size: 50px;
+	  padding-bottom: 1%;
+	  font-weight:bold;
+  }
+  
+  .content-intro {
+	  font-size: 20px;
+	  padding-bottom: 2%;
+  }
+  
+  .content p a:link, a:visited,  a:hover, a:active {
+	  color: #FFFFFF;
+	  font-size: 18px;
+	  text-decoration: underline;
+  }
+  
+  .content p {
+	  color: #FFFFFF;
+	  font-size: 18px;
+  }
+  
   .footer-section{
     background-color: #1B1B25;
   }
@@ -70,6 +94,25 @@ body {
   .nav-bar {
     background-color: #22222E;
   }
+  
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 50%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button */
+input[type=submit] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
   
   /* Buttons */
   
@@ -103,6 +146,10 @@ body {
   
   .feature-box {
     padding: 4.5%;
+  }
+  
+  .container-box {
+	padding: 2%;
   }
   
   .icon {
